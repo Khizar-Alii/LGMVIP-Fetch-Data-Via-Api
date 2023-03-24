@@ -1,0 +1,33 @@
+.person-info {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+  }
+  
+  .person-info:hover {
+    background-color: #eee;
+  }
+  
+  .person-info img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .person-info h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .person-info p {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
